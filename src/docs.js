@@ -29,7 +29,6 @@ export const docs=[
         ]
     },
 
-
     {
         subtitle: "Basics",
         children: [
@@ -477,10 +476,10 @@ export const docs=[
                  children:[
                     {
                         title:"Get Started with Markdown",
-                        link:"/docs/Markdown/GetStarted.md"
+                        link:"/docs/Python/GetStarted.md"
                     }
             ]
-            }
+            },
         ]
     }
 ]

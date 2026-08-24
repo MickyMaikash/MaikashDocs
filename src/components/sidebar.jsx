@@ -199,10 +199,10 @@ const Sidebar = ({
           return(
              <div key={index}>
             <button
-              onClick={() =>
+              onClick={() =>(item.children && item.children.length>0) ? (item.children.length>1?
                 setOpenTopic(
                   openTopic === index ? null : index
-                )
+                ):setcurrentfile(item.children[0])):null
               }
               className={
                 `
@@ -224,11 +224,21 @@ const Sidebar = ({
                 `
               }
             >
-              {item.subtitle}
+              
 
-              <span>
-                {openTopic === index  ? "−" : "+"}
-              </span>
+              {(item.children && item.children.length>0) && 
+                item.children.length>1?(
+                    <>
+                      {item.subtitle}
+                      <span>
+                        {openTopic === index  ? "−" : "+"}
+                      </span>
+                    </>
+                ):(
+                    item.children[0].title
+                )
+              
+              }
 
             </button>
 
