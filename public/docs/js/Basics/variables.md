@@ -1,7 +1,7 @@
 # Variables in Javascript
 - variable is a container(named storage location) used to store a value
 - In js we don't need to define the type of variable means which type of data we want to store in them like whether it is number/int , boolean or string 
-
+- **=* it is called assignment Operator used to assign a value to a variable
 **Example**
 
 ```js
@@ -38,8 +38,9 @@ var
 *Example:*
 
 ```js
-let number1=23 
-const city= "Delhi"
+let number1 // variable number1 created 
+let number1=23  //variable number1 assigned a value 23 by = (assignemtn operator)
+const city= "Delhi" //variable city created and value "Delhi" assigned to it
 console.log(number1)
 console.log(city)
 ```

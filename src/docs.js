@@ -477,6 +477,10 @@ export const docs=[
                     {
                         title:"Typecasting in Js",
                         link:"/docs/js/Basics/TypeCasting.md"
+                    },
+                    {
+                        title:"Arithmetic Operator in Js",
+                        link:"/docs/js/Basics/ArithmeticOperator.md"
                     }
             ]
            },
