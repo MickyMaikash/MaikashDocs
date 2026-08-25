@@ -473,6 +473,10 @@ export const docs=[
                     {
                         title:"Datatypes in Js",
                         link:"/docs/js/Basics/datatypes.md"
+                    },
+                    {
+                        title:"Typecasting in Js",
+                        link:"/docs/js/Basics/TypeCasting.md"
                     }
             ]
            },
