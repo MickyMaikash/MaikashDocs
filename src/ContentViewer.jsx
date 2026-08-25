@@ -1,4 +1,4 @@
-import {useState, useEffect} from 'react';
+import {useState, useEffect, useLayoutEffect} from 'react';
 import Navbar from './components/navbar';
 import Sidebar from './components/sidebar';
 import MarkdownViewer from './components/markdownViewer';
@@ -22,6 +22,11 @@ function ContentToRender({lang}) {
     lang,
     currentFile
   );
+
+  useLayoutEffect(()=>{
+    window.scrollTo(0,0)
+  },[currentFile])
+
     return (
         <main className="flex min-h-screen">
 
@@ -67,10 +72,7 @@ function ContentToRender({lang}) {
     <button
       onClick={() => {
         setCurrentFile(next) 
-        window.scrollTo({
-          top:0,
-          behavior:"auto"
-        })
+        
         
       }
 
