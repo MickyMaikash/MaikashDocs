@@ -454,6 +454,8 @@ export const docs=[
 
 ]
     },
+
+
     {
         title:"JavaScript",
         subtopics:[
@@ -462,12 +464,22 @@ export const docs=[
             children:[
                     {
                         title:"JavaScript Introduction",
-                        link:"/docs/JavaScript/Basics/JSIntro.md"
+                        link:"/docs/js/Basics/JSIntro.md"
+                    },
+                    {
+                        title:"Variables in Js",
+                        link:"/docs/js/Basics/variables.md"
+                    },
+                    {
+                        title:"Datatypes in Js",
+                        link:"/docs/js/Basics/datatypes.md"
                     }
             ]
            },
         ]
     },
+
+
      {
         title:"Markdown ",
         subtopics:[
