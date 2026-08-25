@@ -2,7 +2,7 @@ import { useState } from 'react';
 
 const navItems = [
   { label: 'Home', href: '#home' },
-  { label: 'Contact', href: '#contact' },
+  { label: 'Contact', href: 'https://github.com/MickyMaikash' },
 ];
 
 export default function Navbar({setPreview,setGetStarted,getStarted}) {
