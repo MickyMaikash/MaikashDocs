@@ -28,7 +28,7 @@ function ContentToRender({lang}) {
             <Sidebar  topics={lang} currentfile={currentFile} setcurrentfile={setCurrentFile} />
 
             <div className="flex-1 px-8 py-6">
-                <MarkdownViewer src={currentFile.link} />
+                <MarkdownViewer src={`${import.meta.env.BASE_URL}${currentFile.link.replace(/^\/+/, "")}`} />
                 <div className="mt-10 flex items-center justify-between border-t border-gray-800 pt-6">
 
   {/* Previous */}
