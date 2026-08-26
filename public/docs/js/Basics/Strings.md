@@ -2,6 +2,48 @@
 > A **String** is a data type used to store and work with text, such as names, words, sentences, and symbols.
 > ** Strings follows 0 based Indexing
 
+## ways to add variable value in String 
+> 1. we can use + operator like adding in String
+
+**Example**
+```js
+let car1="Ferrari"
+let noOfCar=8
+
+console.log("He has " + noOfCar+ " "+car1) //this way like for log
+
+let message="He has " + noOfCar+ " "+car1
+console.log(message) //for storing in a variable
+```
+*Output*
+```text
+He has 8 Ferrari
+He has 8 Ferrari
+```
+> here using + operator between string and variable then if variable is not of type then type conversion take place in string and then things are added together
+
+> 2. Using Backtics we can directly add variable value inside string wherever we want
+- basically we initiliase our string with `` and inside it where we want to add /invoke our variable there
+- we use **${}** inside this curly bracket we add that variable name
+
+*Example*
+```js
+let carName="Bmw"
+let noOfCar=10
+
+console.log(`He has ${noOfCar} ${carName}`) //this way like for log
+
+let message=`He has ${noOfCar} ${carName}`
+console.log(message) //for storing in a variable
+```
+*Output*
+```text
+He has 10 Bmw
+He has 10 Bmw
+```
+> generally this backtics way is more used whenever we want to add things inside the string rather writing multiple **+** for string catenation
+---
+
 ## Ways to create Strings
 ```js
 let name="Micky" //1st way ->  Normal /primitive String

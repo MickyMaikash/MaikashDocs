@@ -500,6 +500,24 @@ export const docs=[
                     link:"/docs/js/Basics/Strings.md"
                 }
             ]
+           },
+            {
+            subtitle:"",
+            children:[
+                {
+                    title:"Number and Math in Js",
+                    link:"/docs/js/Basics/Nums_Maths.md"
+                }
+            ]
+           },
+            {
+            subtitle:"",
+            children:[
+                {
+                    title:"Dates in Javascript",
+                    link:"/docs/js/Basics/DateInJs.md"
+                }
+            ]
            }
         ]
     },
