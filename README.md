@@ -6,6 +6,12 @@ MaikashDocs is my personal documentation site — a place where I keep the progr
 
 I don't want the things I learn to disappear after I finish a project. So I keep them here — simple, searchable, and easy to revisit.
 
+<a href="https://mickymaikash.github.io/MaikashDocs/">
+  Explore →
+  <img src="./public/favicon.svg" width="20" height="20" style="vertical-align: middle;" />
+  MaikashDocs
+</a>
+
 ## What you'll find here
 
 * 📚 Programming concepts and notes
