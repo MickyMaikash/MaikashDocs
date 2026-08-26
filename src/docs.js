@@ -518,6 +518,17 @@ export const docs=[
                     link:"/docs/js/Basics/DateInJs.md"
                 }
             ]
+           },
+           {
+            subtitle:"Array",
+            children:[
+                {
+                    title:"Array in Js",
+                    link:"/docs/js/Arrays/Arrays.md"
+                }
+            ]
+
+            
            }
         ]
     },
