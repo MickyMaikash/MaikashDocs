@@ -479,11 +479,28 @@ export const docs=[
                         link:"/docs/js/Basics/TypeCasting.md"
                     },
                     {
-                        title:"Arithmetic Operator in Js",
+                        title:"Arithmetic Operator ",
                         link:"/docs/js/Basics/ArithmeticOperator.md"
+                    },
+                    {
+                        title:"Comparision Operator",
+                        link:"/docs/js/Basics/ComparisionOperator.md"
+                    },
+                    {
+                        title:"Memory in Js",
+                        link:"/docs/js/Basics/MemoryInJs.md"
                     }
             ]
            },
+           {
+            subtitle:"",
+            children:[
+                {
+                    title:"Strings in Js",
+                    link:"/docs/js/Basics/Strings.md"
+                }
+            ]
+           }
         ]
     },
 

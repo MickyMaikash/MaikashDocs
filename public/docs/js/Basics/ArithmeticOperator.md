@@ -186,12 +186,55 @@ console.log(numberOfCar)
 ```
 **Output**
 ```text
-
+35
 ```
 > here when we have some variable eg  x=12 and when we write x=x+23 it means add the 23 to value of variable of x and then put this value in the variable x basically the earlier value 12 would be repalced by 12+23 
 
 > x=12
 > x++ or x= x+1 both are same both measn same increase value by 1 and reassing to x 
+
+--- 
+
+# 🧠 Quick Practice
+### 1. Write a JavaScript program to add 25 and 17.
+---
+### 2. Write a program to subtract 35 from 80.
+---
+### 3. Write a program to multiply 12 and 8.
+---
+### 4. Write a program to divide 45 by 6.
+---
+### 5. Write a program to find the remainder when 27 is divided by 5.
+---
+### 6. Write a program to calculate 2 raised to the power 8.
+---
+### 7. Create a variable number with the value 4. Print its cube and its negative value.
+---
+### 8. Create a variable price with the value 150. Increase its value by 50 using reassignment, then increase it by 1 using an increment operator.
+---
+### 9. Create two string variables containing "Hello " and "JavaScript". Combine them and print the resulting sentence.
+---
+### 10. Predict the output of the following without running the code:
+```js
+console.log("10" + 5);
+console.log(10 + "5");
+console.log("10" + 5 + 5);
+console.log(10 + 5 + "5");
+```
+---
+### 11. Use the unary + operator with "25", true, false, "", and "hello". Predict the result of each.
+---
+### 12. Predict the output of each expression:
+```js
+console.log(2 + 3 * 4);
+console.log((2 + 3) * 4);
+console.log("2" + 3 * 4);
+console.log(2 + 3 + "4");
+console.log("2" + 3 + 4);
+```
+---
+### 13. Create a variable number = 10 and write a program that performs several arithmetic operations on it, including addition, subtraction, multiplication, division, remainder, exponentiation, and increment. Print the result after each operation.
+
 
 
 
