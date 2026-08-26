@@ -542,7 +542,7 @@ export const docs=[
                  children:[
                     {
                         title:"Get Started with Markdown",
-                        link:"/docs/Python/GetStarted.md"
+                        link:"/docs/Markdown/GetStarted.md"
                     }
             ]
             },
