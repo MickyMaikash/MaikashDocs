@@ -28,6 +28,15 @@ export default function MarkDownViewer({ src}) {
         );
     },
 
+    //added this file for image correct render on site
+    img({ src, alt, ...props }) {
+    const imageSrc = src?.startsWith("/")
+      ? `${import.meta.env.BASE_URL}${src.slice(1)}`
+      : src;
+
+    return <img src={imageSrc} alt={alt} {...props} />;
+  },
+
     pre({children}) {
         return (
             <CodeCopyOption>
