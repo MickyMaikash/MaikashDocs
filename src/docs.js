@@ -534,7 +534,7 @@ export const docs=[
     },
 
 
-     {
+    {
         title:"Markdown ",
         subtopics:[
             {
@@ -547,5 +547,20 @@ export const docs=[
             ]
             },
         ]
-    }
+    },
+     {
+        title:"RAG(AI) ",
+        subtopics:[
+            {
+                subtitle:"Basics",
+                 children:[
+                    {
+                        title:"Intro of  Retrieval-Augmented Generation",
+                        link:"/docs/RAG/Intro.md"
+                    }
+            ]
+            },
+        ]
+    },
+    
 ]
