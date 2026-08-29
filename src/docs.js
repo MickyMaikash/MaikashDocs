@@ -55,6 +55,10 @@ export const docs=[
             {
                 title: "User Input",
                 link: "/docs/Python/Basics/user-input.md"
+            },
+            {
+                title:"Virtual Environment",
+                link:"/docs/Python/Basics/VirtualEnviornemt.md"
             }
         ]
     },
