@@ -333,6 +333,10 @@ export const docs=[
             {
                 title: "Virtual Environments",
                 link: "/docs/Python/AdvancedPython/virtual-environments.md"
+            },
+            {
+                title:"Jupyter Notebook Shortcut keys",
+                link:"/docs/Python/AdvancedPython/jupterNotebook.md"
             }
         ]
     },
