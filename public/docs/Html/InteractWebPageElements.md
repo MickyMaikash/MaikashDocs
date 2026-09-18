@@ -144,7 +144,7 @@
 
 ### Text Input & Labels
 
-> **form elements explained:**
+> **form elements:**
 > * `<label>` tag-> provides a readable label for an input box. the `for` attribute on the label must match the `id` attribute on the input box. clicking the label text focuses the cursor inside the input box automatically
 > * `<input>` tag-> accepts user input. its behavior changes based on the `type` attribute:
 > * `type="text"`-> single line input field for text like names
