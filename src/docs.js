@@ -580,7 +580,7 @@ export const docs=[
             },
         ]
     },
-     {
+    {
         title:"RAG(AI) ",
         subtopics:[
             {
@@ -589,6 +589,20 @@ export const docs=[
                     {
                         title:"Intro of  Retrieval-Augmented Generation",
                         link:"/docs/RAG/Intro.md"
+                    }
+            ]
+            },
+        ]
+    },
+      {
+        title:"Kali Linux",
+        subtopics:[
+            {
+                subtitle:"Basics",
+                 children:[
+                    {
+                        title:"Basics of Kali linux",
+                        link:"/docs/kali linux/Basics.md"
                     }
             ]
             },
