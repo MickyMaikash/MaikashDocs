@@ -602,6 +602,27 @@ export const docs=[
                     link:"/docs/js/Logic and Control Flow/Switch-Case-Truthy-and-Falsy.md"
                 }
             ]
+           },
+           {
+            subtitle:"Loop or Iteration in Js",
+            children:[
+                {
+                    title:"Loops In Javascript",
+                    link:"/docs/js/Loops/Loops_in_js.md"
+                },
+                {
+                    title:"For of and For in Loops",
+                    link:"/docs/js/Loops/For of and For in Loops.md"
+                },
+                {
+                    title:"forEach() loop and filter()",
+                    link:"/docs/js/Loops/forEach_loop_and_filter.md"
+                },
+                {
+                    title:"map() and reduce()",
+                    link:"/docs/js/Loops/map_and_reduce.md"
+                }
+            ]
            }
         ]
     },
