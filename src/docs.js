@@ -589,6 +589,19 @@ export const docs=[
                     link:"/docs/js/Functions/function2.md"
                 }
             ]
+           },
+           {
+            subtitle:"JavaScript Logic & Control Flow",
+            children:[
+                {
+                    title:"Conditions and Operators",
+                    link:"/docs/js/Logic and Control Flow/Conditions-and-Operators.md"
+                },
+                {
+                    title:"Switch Case,Truthy and Falsy Value",
+                    link:"/docs/js/Logic and Control Flow/Switch-Case-Truthy-and-Falsy.md"
+                }
+            ]
            }
         ]
     },
