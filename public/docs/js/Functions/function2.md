@@ -9,7 +9,7 @@ There are mainly two important scopes in this section:
 
 ---
 
-# 1. 🌍 Global Scope
+## 1. 🌍 Global Scope
 
 A variable declared outside a block or function is in the **global scope**.
 
@@ -29,7 +29,7 @@ Because `a` is declared outside the `if` block, it can be accessed from places w
 
 ---
 
-# 2. 📦 Block Scope
+## 2. 📦 Block Scope
 
 Variables declared using `let` and `const` inside `{}` are limited to that block.
 
@@ -65,7 +65,7 @@ The `a` inside the block is a **different variable** from the `a` outside.
 
 ---
 
-## ⚠️ Block Scope Example
+### ⚠️ Block Scope Example
 
 ```js
 let a = 300
@@ -96,7 +96,7 @@ This results in an error because `b` is outside its scope.
 
 ---
 
-# Nested Scope
+## Nested Scope
 
 A scope can exist inside another scope.
 
@@ -167,7 +167,7 @@ one()
 
 ---
 
-# Nested Block Scope
+## Nested Block Scope
 
 Nested scope can also happen with `if` blocks.
 
@@ -188,7 +188,7 @@ But `website` only exists inside the inner `if`.
 
 ---
 
-# Interesting Question: Function Declaration vs Function Expression
+## Interesting Question: Function Declaration vs Function Expression
 
 Consider this:
 
@@ -248,7 +248,7 @@ Output:
 
 ---
 
-# `this` in JavaScript
+## `this` in JavaScript
 
 `this` refers to the object associated with the current method call.
 
@@ -311,7 +311,7 @@ The same function uses the current value of `username` from the object.
 
 ---
 
-# `this` Inside a Regular Function
+## `this` Inside a Regular Function
 
 For example:
 
@@ -334,7 +334,7 @@ A local variable called `username` and a property called `this.username` are not
 
 ---
 
-# ➡️ Arrow Functions
+## ➡️ Arrow Functions
 
 Arrow functions provide a shorter way to write functions.
 
@@ -363,7 +363,7 @@ The exact value printed by `console.log(this)` can depend on the environment in 
 
 ---
 
-# 🔹 Explicit Return in Arrow Functions
+## Explicit Return in Arrow Functions
 
 An arrow function can use `{}` with an explicit `return`.
 
@@ -393,7 +393,7 @@ return
 
 ---
 
-# 🔹 Implicit Return
+## Implicit Return
 
 For a simple expression, an arrow function can return the value without writing `return`.
 
@@ -429,7 +429,7 @@ This also returns:
 
 ---
 
-# 🔹 Returning an Object from an Arrow Function
+## Returning an Object from an Arrow Function
 
 There is an important syntax when returning an object implicitly.
 
@@ -463,7 +463,7 @@ JavaScript treats `{}` as the function body rather than an object being implicit
 
 ---
 
-# 🔄 Arrow Functions in Loops and Arrays
+## 🔄 Arrow Functions in Loops and Arrays
 
 Arrow functions are commonly used when working with arrays and loops, especially with methods such as:
 
@@ -493,7 +493,7 @@ Output:
 
 ---
 
-# ⚡ Immediately Invoked Function Expression (IIFE)
+## Immediately Invoked Function Expression (IIFE)
 
 **IIFE** stands for:
 
@@ -517,7 +517,7 @@ DB connected
 
 ---
 
-# 🔹 IIFE Syntax
+## IIFE Syntax
 
 The basic structure is:
 
@@ -555,7 +555,7 @@ So:
 
 ---
 
-# 🎯 Why Use IIFE?
+## Why Use IIFE?
 
 IIFEs can be used when we want some code to execute immediately and keep variables/functions inside their own scope.
 
@@ -577,7 +577,7 @@ IIFEs were also commonly used to avoid unnecessary variables leaking into the su
 
 ---
 
-# 🔹 Named IIFE
+## Named IIFE
 
 An IIFE can have a function name.
 
@@ -599,7 +599,7 @@ So this is called a **named IIFE**.
 
 ---
 
-# 🔹 IIFE with Arrow Function
+## IIFE with Arrow Function
 
 An IIFE can also be written using an arrow function.
 
@@ -629,7 +629,7 @@ name
 
 ---
 
-# 🔹 Multiple IIFEs
+## Multiple IIFEs
 
 When writing multiple IIFEs, the previous IIFE needs to be properly terminated.
 

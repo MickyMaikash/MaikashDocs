@@ -1,6 +1,6 @@
 # Switch Case, Truthy & Falsy Values in JavaScript
 
-# Switch Case
+## Switch Case
 
 The `switch` statement is used when we want to compare one value against multiple possible values.
 
@@ -147,7 +147,7 @@ No matching case → execute default
 
 ---
 
-# Truthy & Falsy Values
+## Truthy & Falsy Values
 
 JavaScript values can behave like `true` or `false` when they are used in a condition.
 
@@ -162,7 +162,7 @@ if (value) {
 ```
 
 
-## ❌ Falsy Values
+### ❌ Falsy Values
 
 These values are treated as **false** when used in a condition.
 
@@ -192,7 +192,7 @@ Don't have user email
 
 Because an empty string `""` is falsy.
 
-## Truthy Values
+### Truthy Values
 
 Values that are treated as `true` in a condition are called **truthy values**.
 
@@ -218,7 +218,7 @@ And an **empty object** is also truthy:
 
 ---
 
-# Empty Array is Truthy
+### Empty Array is Truthy
 
 Consider:
 
@@ -250,7 +250,7 @@ does **not** check whether the array contains elements.
 
 ---
 
-# Checking if an Array is Empty
+### Checking if an Array is Empty
 
 If we actually want to check whether an array contains zero elements, use its `length`.
 
@@ -290,7 +290,7 @@ is `true`.
 
 ---
 
-# Empty Object is Truthy
+### Empty Object is Truthy
 
 An empty object is also truthy:
 
@@ -314,7 +314,7 @@ does not tell us whether the object has any properties.
 
 ---
 
-# Checking if an Object is Empty
+### Checking if an Object is Empty
 
 We can use:
 
@@ -368,7 +368,7 @@ Check whether length === 0
 
 ---
 
-# 🧠 Important Difference
+## 🧠 Important Difference
 
 ### Empty Array
 
@@ -400,7 +400,7 @@ Object.keys(object).length === 0
 
 ---
 
-# 📚 Equality Facts
+## 📚 Equality Facts
 
 These are useful JavaScript facts to remember:
 
@@ -470,7 +470,7 @@ because `===` checks both the value and the data type.
 
 ---
 
-# 📝 Quick Revision
+## 📝 Quick Revision
 
 ### Switch
 

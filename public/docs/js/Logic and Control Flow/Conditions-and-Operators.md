@@ -4,7 +4,7 @@ Conditions allow us to execute different code depending on whether a condition i
 
 
 
-# `if` Statement
+## `if` Statement
 
 The `if` statement executes a block of code when its condition is `true`.
 
@@ -27,7 +27,7 @@ Temperature is less than 50
 
 ---
 
-# `if...else`
+## `if...else`
 
 We can use `else` when we want another block of code to execute if the condition is `false`.
 
@@ -51,7 +51,7 @@ This code will execute regardless of whether the `if` condition was `true` or `f
 
 ---
 
-#  Comparison Operators
+##  Comparison Operators
 
 Comparison operators are used to compare values.
 
@@ -101,7 +101,7 @@ because one is a number and the other is a string.
 
 ---
 
-# Block Scope with `if`
+## Block Scope with `if`
 
 Variables declared using `let` or `const` inside an `if` block belong to that block.
 
@@ -127,7 +127,7 @@ This is related to the concept of **block scope**.
 
 ---
 
-# Single-Line `if`
+## Single-Line `if`
 
 If the `if` block contains only one statement, we can write it without curly braces.
 
@@ -149,7 +149,7 @@ However, using curly braces is generally clearer when there is more than one sta
 
 ---
 
-# `else if`
+## `else if`
 
 When we have multiple conditions, we can use `else if`.
 
@@ -185,7 +185,7 @@ Less than 1200
 
 ---
 
-# Logical AND `&&`
+## Logical AND `&&`
 
 The `&&` operator means **AND**.
 
@@ -220,7 +220,7 @@ Condition 1 AND Condition 2
 
 ---
 
-# Logical OR `||`
+## Logical OR `||`
 
 The `||` operator means **OR**.
 
@@ -252,7 +252,7 @@ USER logged In
 
 ---
 
-# Nullish Coalescing Operator `??`
+## Nullish Coalescing Operator `??`
 
 The **nullish coalescing operator** is:
 
@@ -338,7 +338,7 @@ val1 = 10
 
 ---
 
-# Ternary Operator
+## Ternary Operator
 
 The **ternary operator** is a short way of writing an `if...else` condition.
 
@@ -408,7 +408,7 @@ So the ternary operator can be useful when the condition is simple and we want a
 
 ---
 
-# 📝 Quick Revision
+## 📝 Quick Revision
 
 ### `if`
 
