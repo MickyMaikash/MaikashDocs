@@ -561,6 +561,21 @@ export const docs=[
             ]
 
             
+           },
+           {
+            subtitle:"Object In Js",
+            children:[
+                {
+                    title:"Objects Introduction",
+                    link:"/docs/js/Objects/Intro.md"
+                },
+                {
+                    title:"Destructuring of Objects",
+                    link:"/docs/js/Objects/Destructuring of Objects.md"
+                }
+            ]
+
+            
            }
         ]
     },
