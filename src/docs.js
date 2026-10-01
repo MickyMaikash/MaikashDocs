@@ -576,6 +576,19 @@ export const docs=[
             ]
 
             
+           },
+           {
+            subtitle:"Functions",
+            children:[
+                {
+                    title:"Function In Js",
+                    link:"/docs/js/Functions/function1.md"
+                },
+                {
+                    title:"Scope, this, Arrow Functions & IIFE",
+                    link:"/docs/js/Functions/function2.md"
+                }
+            ]
            }
         ]
     },
