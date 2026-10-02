@@ -660,6 +660,19 @@ export const docs=[
 
                 }
             ]
+           },
+           {
+            subtitle:"Asynchronous JavaScript",
+            children:[
+                {
+                    title:"AJAX XMLHttpRequest and APIs",
+                    link:"/docs/js/Asynchronous-JavaScript/AJAX-XMLHttpRequest-and-APIs.md"
+                },
+                {
+                    title:"Promises,Async Await and Fetch",
+                    link:"/docs/js/Asynchronous-JavaScript/Promises-Async-Await-and-Fetch.md"
+                }
+            ]
            }
         ]
     },
