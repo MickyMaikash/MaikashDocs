@@ -645,6 +645,21 @@ export const docs=[
                 },
 
             ]
+           },
+           {
+            subtitle:"DOM Events In Js",
+            children:[
+                {
+                    title:"DOM Events",
+                    link:"/docs/js/Events/DOM_EVENTS.md"
+
+                },
+                {
+                    title:"DOM Timers In Js",
+                    link:"/docs/js/Events/timersINjs.md"
+
+                }
+            ]
            }
         ]
     },
