@@ -623,6 +623,28 @@ export const docs=[
                     link:"/docs/js/Loops/map_and_reduce.md"
                 }
             ]
+           },
+           {
+            subtitle:"DOM (Document Object Model)",
+            children:[
+                {
+                    title:"JavaScript DOM — Basics & Traversal",
+                    link:"/docs/js/DOM/JavaScript DOM — Basics & Traversal.md"
+                },
+                {
+                    title:"DOM — Element Creation",
+                    link:"/docs/js/DOM/DOM — Element Creation.md"
+                },
+                {
+                    title:"DOM — Add, Edit & Remove Elements",
+                    link:"/docs/js/DOM/DOM — Add, Edit & Remove Elements.md"
+                },
+                {
+                    title:"DOM Summary",
+                    link:"/docs/js/DOM/Dom_summary.md"
+                },
+
+            ]
            }
         ]
     },
