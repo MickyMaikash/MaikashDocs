@@ -15,12 +15,33 @@ export default function MarkDownViewer({ src}) {
     }, [src]);
 
     return (
-        <article className="prose prose-invert max-w-none text-left text-white">
+        <article className="prose prose-invert max-w-none text-left text-white
+        prose-code:before:content-none
+        prose-code:after:content-none
+        ">
             <ReactMarkdown 
                 remarkPlugins={[remarkGfm]}
                 rehypePlugins={[rehypeHighlight]}
              components={{
     code({children, className, ...props}) {
+
+        //Inline CodeRendering
+        const isInline = !className;
+        if (isInline) {
+            return (
+                <code
+                    className="bg-[#0d1117] text-white px-1.5 py-0.5 rounded"
+                    {...props}
+                >
+                    {children}
+                </code>
+            );
+        }
+
+
+
+
+        //Large CodeBlock Rendering
         return (
             <code className={className} {...props}>
                 {children}
