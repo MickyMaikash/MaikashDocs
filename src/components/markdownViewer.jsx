@@ -15,12 +15,30 @@ export default function MarkDownViewer({ src}) {
     }, [src]);
 
     return (
-        <article className="prose prose-invert max-w-none text-left text-white">
+        <article className="prose prose-invert max-w-none text-left text-white  
+        prose-code:before:content-none
+        prose-code:after:content-none">
             <ReactMarkdown 
                 remarkPlugins={[remarkGfm]}
                 rehypePlugins={[rehypeHighlight]}
              components={{
     code({children, className, ...props}) {
+
+        //This Added to fix Inline Code Rendering Issue
+        const isInline = !className;
+
+        if (isInline) {
+            return (
+                <code
+                    className="px-1.5 py-0.5 rounded bg-gray-800 text-sm"
+                    {...props}
+                >
+                    {children}
+                </code>
+            );
+        }
+
+        //this is the earlier code block/large code rendering code
         return (
             <code className={className} {...props}>
                 {children}
