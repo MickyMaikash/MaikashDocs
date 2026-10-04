@@ -673,6 +673,55 @@ export const docs=[
                     link:"/docs/js/Asynchronous-JavaScript/Promises-Async-Await-and-Fetch.md"
                 }
             ]
+           },
+           {
+            subtitle:"Objects and OOPS",
+            children:[
+                {
+                    title:"Constructor Functions, `new` & Prototypes",
+                    link:"/docs/js/Objects-and-OOP/Constructors-new-and-Prototypes.md"
+                },
+                {
+                    title:"Prototypes & Prototypal Inheritance",
+                    link:"/docs/js/Objects-and-OOP/Prototype-prototypal_inheritance.md"
+                },
+                {
+                    title:"Call & This in Js",
+                    link:"/docs/js/Objects-and-OOP/Call-and-This.md"
+                },
+                {
+                    title:"Class in Javascript",
+                    link:"/docs/js/Objects-and-OOP/class_In_Js.md"
+                },
+                {
+                    title:"Inheritance and Instanceof",
+                    link:"/docs/js/Objects-and-OOP/Inheritance and Instanceof.md"
+                },
+                {
+                    title:"static Methods In Class",
+                    link:"/docs/js/Objects-and-OOP/static Methods In Class.md"
+                },
+                {
+                    title:"bind() in Js",
+                    link:"/docs/js/Objects-and-OOP/bind() in Js.md"
+                },
+                {
+                    title:"JavaScript Property Descriptors",
+                    link:"/docs/js/Objects-and-OOP/JavaScript Property Descriptors.md"
+                },
+                {
+                    title:"Getters & Setters in Classes",
+                    link:"/docs/js/Objects-and-OOP/Getters & Setters in Classes.md"
+                },
+                {
+                    title:"Getters & Setters with Object",
+                    link:"/docs/js/Objects-and-OOP/Getters & Setters with Object.md"
+                },
+                {
+                    title:"Getters & Setters with Object.create()",
+                    link:"/docs/js/Objects-and-OOP/Getters & Setters with Object.create().md"
+                },
+            ]
            }
         ]
     },
