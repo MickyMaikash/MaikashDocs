@@ -722,6 +722,15 @@ export const docs=[
                     link:"/docs/js/Objects-and-OOP/Getters & Setters with Object.create().md"
                 },
             ]
+           },
+           {
+            subtitle:"",
+            children:[
+                {
+                    title:"Closures & Lexical Scope In Javascript",
+                    link:"/docs/js/closure.md"
+                }
+            ]
            }
         ]
     },
