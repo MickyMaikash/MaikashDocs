@@ -931,4 +931,4 @@ Use JavaScript's prototype-based object model
 > **Memory Trick:**  
 > `class` → cleaner syntax  
 > `prototype` → underlying object model
-```
+
