@@ -764,12 +764,12 @@ export const docs=[
             },
         ]
     },
-      {
+    {
         title:"Kali Linux",
         subtopics:[
             {
                 subtitle:"Basics",
-                 children:[
+                children:[
                     {
                         title:"Basics of Kali linux",
                         link:"/docs/kali linux/Basics.md"
@@ -778,5 +778,32 @@ export const docs=[
             },
         ]
     },
+    {
+        title:"Jetpack Compose",
+        subtopics:[
+            {
+                subtitle:"Fundamental Concepts",
+                children:[
+                    {
+                        title:"Composable Basics and Preview",
+                        link:"/docs/Jetpack Compose/Fundamental Concepts/Composable Basics and Preview.md"
+                    },
+                    {
+                        title:"Accessing Resources",
+                        link:"/docs/Jetpack Compose/Fundamental Concepts/Accessing Resources.md"
+                    }
+                ]
+            },
+            {
+                subtitle:"Core Components",
+                children:[
+                    {
+                        title:"Text and Typography",
+                        link:"/docs/Jetpack Compose/Core Components/Text and Typography.md"
+                    }
+                ]
+            }
+        ]
+    }
     
 ]
