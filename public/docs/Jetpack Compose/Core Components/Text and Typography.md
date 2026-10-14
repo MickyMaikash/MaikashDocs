@@ -10,7 +10,7 @@ The `Text()` composable provides several properties for changing the appearance 
 
 ### Example
 
-```
+```kotlin
 @Composable
 fun SimpleText() {
     Box(
@@ -80,7 +80,7 @@ These properties control different aspects of text appearance.
 
 Example:
 
-```
+```kotlin
 Text(
     text = "Jetpack Compose",
     fontSize = 28.sp,
@@ -98,7 +98,7 @@ The text will be large, bold, italic, and blue.
 
 A shadow can make text visually stand out from its background.
 
-```
+```kotlin
 Text(
     text = "Shadow Text",
     style = TextStyle(
@@ -127,7 +127,7 @@ Jetpack Compose allows us to apply a gradient brush to part of a text string usi
 
 ### Example
 
-```
+```kotlin
 @Composable
 fun ColorfulText() {
 
@@ -203,7 +203,7 @@ Sometimes text is too long to display comfortably in the available space. The `b
 
 ### Example
 
-```
+```kotlin
 @Composable
 fun HorizontalScrollableText() {
 
@@ -238,7 +238,7 @@ fun HorizontalScrollableText() {
 
 The `maxLines` property controls the maximum number of lines that a `Text()` composable can display.
 
-```
+```kotlin
 Text(
     text = "This is a long description that may need several lines to display completely.",
     maxLines = 2
@@ -255,7 +255,7 @@ When text exceeds its available space, we can use `TextOverflow.Ellipsis` to ind
 
 ### Example
 
-```
+```kotlin
 @Composable
 fun OverflowingText() {
     Box(
@@ -302,7 +302,7 @@ The exact truncation depends on the available width, font size, and text layout.
 
 Use `@Preview` to inspect your text UI directly in Android Studio.
 
-```
+```kotlin
 @Preview(showSystemUi = true)
 @Composable
 fun UiPreview() {

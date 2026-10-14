@@ -20,7 +20,7 @@ String resources allow us to store text separately from our Kotlin code, usually
 
 ### Example
 
-```
+```kotlin
 @Composable
 fun AccessStringsResource() {
     Box(
@@ -54,7 +54,7 @@ Hello Developer
 
 ### Resource Location
 
-```
+```txt
 res/
 └── values/
     ├── strings.xml
@@ -69,7 +69,7 @@ Images stored in the `drawable` resource directory can be loaded using `painterR
 
 ### Example
 
-```
+```kotlin
 @Composable
 fun AccessImageResource() {
     Box(
@@ -109,7 +109,7 @@ The `@Preview` annotation lets you inspect a composable directly in Android Stud
 
 ### Example
 
-```
+```kotlin
 @Preview(showSystemUi = true)
 @Composable
 fun ResourceAccessPreview() {
@@ -125,7 +125,7 @@ fun ResourceAccessPreview() {
 
 You can also preview the string resource example:
 
-```
+```kotlin
 @Preview(showSystemUi = true)
 @Composable
 fun StringResourcePreview() {
